@@ -96,6 +96,5 @@ if not os.path.exists('result'):
 if not os.path.exists('result/diversity-index'):
     os.makedirs('result/diversity-index')
 plt.savefig('result/diversity-index/diversity-index-by-country.png')
-plt.show()
 
 print("Analysis complete! Diversity index graph saved as 'result/diversity-index/diversity-index-by-country.png'.")

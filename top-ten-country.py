@@ -83,7 +83,7 @@ dicts = {
 # Analyze routines for each country
 for country, file_path in countries.items():
     if os.path.exists(file_path):
-        print(f"Analyzing routines for {country}:")
+        print(f"Analyzing routines for {country}.")
         routines = load_routines(file_path)
         device_dict = load_device_dict(dicts[country])
         analyze_routines(routines, country, device_dict)
