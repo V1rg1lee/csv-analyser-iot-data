@@ -57,9 +57,10 @@ def analyze_routines(routines, country, device_dict):
     plt.tight_layout()
 
     # Save the plot as a PNG file
-    if not os.path.exists('result'):
-        os.makedirs('result')
-    plt.savefig(f'result/top-10-device-{country}.png')
+    result_dir = 'result/top-ten'
+    if not os.path.exists(result_dir):
+        os.makedirs(result_dir)
+    plt.savefig(f'{result_dir}/top-10-device-{country}.png')
     plt.close()
 
     return sorted_devices
