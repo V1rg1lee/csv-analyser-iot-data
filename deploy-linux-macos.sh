@@ -16,17 +16,11 @@ else
 fi
 
 # Check if data directory and subdirectories exist
-dataDir="data"
 subDirs=("fr" "kr" "sp" "us")
 
-if [ ! -d "$dataDir" ]; then
-    echo "Data directory not found. Please make sure the 'data' directory exists."
-    exit 1
-fi
-
 for subDir in "${subDirs[@]}"; do
-    if [ ! -d "$dataDir/$subDir" ]; then
-        echo "Subdirectory '$subDir' not found in 'data' directory. Please make sure it exists."
+    if [ ! -d "$subDir" ]; then
+        echo "Subdirectory '$subDir' not found. Please make sure it exists."
         exit 1
     fi
 done

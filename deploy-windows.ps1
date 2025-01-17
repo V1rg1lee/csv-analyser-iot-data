@@ -7,17 +7,11 @@ if (-not (Get-Command python3 -ErrorAction SilentlyContinue)) {
 }
 
 # Check if data directory and subdirectories exist
-$dataDir = "data"
 $subDirs = @("fr", "kr", "sp", "us")
 
-if (-not (Test-Path -Path $dataDir)) {
-    Write-Host "Data directory not found. Please make sure the 'data' directory exists." -ForegroundColor Red
-    exit 1
-}
-
 foreach ($subDir in $subDirs) {
-    if (-not (Test-Path -Path (Join-Path $dataDir $subDir))) {
-        Write-Host "Subdirectory '$subDir' not found in 'data' directory. Please make sure it exists." -ForegroundColor Red
+    if (-not (Test-Path -Path $subDir)) {
+        Write-Host "Subdirectory '$subDir' not found. Please make sure it exists." -ForegroundColor Red
         exit 1
     }
 }

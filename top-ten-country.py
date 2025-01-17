@@ -67,17 +67,17 @@ def analyze_routines(routines, country, device_dict):
 
 # List of countries and their routine files
 countries = {
-    "France": "data/fr/routine_device_corpus.txt",
-    "Korea": "data/kr/routine_device_corpus.txt",
-    "USA": "data/us/routine_device_corpus.txt",
-    "Spain": "data/sp/routine_device_corpus.txt"
+    "France": "fr/routine_device_corpus.txt",
+    "Korea": "kr/routine_device_corpus.txt",
+    "USA": "us/routine_device_corpus.txt",
+    "Spain": "sp/routine_device_corpus.txt"
 }
 
 dicts = {
-    "France": "data/fr/dictionary.py",
-    "Korea": "data/kr/dictionary.py",
-    "USA": "data/us/dictionary.py",
-    "Spain": "data/sp/dictionary.py"
+    "France": "fr/dictionary.py",
+    "Korea": "kr/dictionary.py",
+    "USA": "us/dictionary.py",
+    "Spain": "sp/dictionary.py"
 }
 
 # Analyze routines for each country

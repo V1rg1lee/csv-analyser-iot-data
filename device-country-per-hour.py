@@ -81,10 +81,10 @@ def analyze_hourly_usage_by_device(routines, device_dict, country):
 
 # List of countries and their corresponding data files
 countries = {
-    "France": {"routines_file": "data/fr/routine_device_corpus.txt", "dict_file": "data/fr/dictionary.py"},
-    "Korea": {"routines_file": "data/kr/routine_device_corpus.txt", "dict_file": "data/kr/dictionary.py"},
-    "USA": {"routines_file": "data/us/routine_device_corpus.txt", "dict_file": "data/us/dictionary.py"},
-    "Spain": {"routines_file": "data/sp/routine_device_corpus.txt", "dict_file": "data/sp/dictionary.py"}
+    "France": {"routines_file": "fr/routine_device_corpus.txt", "dict_file": "fr/dictionary.py"},
+    "Korea": {"routines_file": "kr/routine_device_corpus.txt", "dict_file": "kr/dictionary.py"},
+    "USA": {"routines_file": "us/routine_device_corpus.txt", "dict_file": "us/dictionary.py"},
+    "Spain": {"routines_file": "sp/routine_device_corpus.txt", "dict_file": "sp/dictionary.py"}
 }
 
 # Process each country
