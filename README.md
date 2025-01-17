@@ -16,8 +16,8 @@ The dataset used for this project is available at [SmartSense on GitHub](https:/
 
 ## How to Use the Dataset:
 1. Download the dataset from the repository.
-2. Unzip the data folder.
-3. Place the unzipped data folder in the root directory of this project.
+2. Unzip the data folder in the root directory of this project.
+3. It should now have in the root directory the 4 new folders: sp, us, fr and kr.
 
 The tool will automatically recognize and process the dataset files from the data folder.
 
