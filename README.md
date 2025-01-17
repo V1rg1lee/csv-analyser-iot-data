@@ -10,6 +10,17 @@ It was designed by a group comprising Martin Devolder, Virgile Devolder and Core
 ### Python
 To use this tool, you need Python installed on your system. Ensure you have Python version 3.7 or later. You can download the latest version of Python from the [official Python website](https://www.python.org/downloads/).
 
+## Dataset
+
+The dataset used for this project is available at [SmartSense on GitHub](https://github.com/snudatalab/SmartSense).
+
+## How to Use the Dataset:
+1. Download the dataset from the repository.
+2. Unzip the data folder.
+3. Place the unzipped data folder in the root directory of this project.
+
+The tool will automatically recognize and process the dataset files from the data folder.
+
 ## Launch the tool with script
 
 ### On Windows
@@ -70,17 +81,6 @@ Each Python script can be executed using the following command:
 python <file_name>.py
 ```
 Replace <file_name> with the actual name of the script you want to run.
-
-### Dataset
-
-The dataset used for this project is available at [SmartSense on GitHub](https://github.com/snudatalab/SmartSense).
-
-## How to Use the Dataset:
-1. Download the dataset from the repository.
-2. Unzip the data folder.
-3. Place the unzipped data folder in the root directory of this project.
-
-The tool will automatically recognize and process the dataset files from the data folder.
 
 ## Results
 
